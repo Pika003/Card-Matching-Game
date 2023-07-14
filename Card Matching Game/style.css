@@ -18,15 +18,14 @@ body{
     font-size: 1.5em;
     color: #fff;
     text-transform: uppercase;
-    
     background: #209d7b;
     border-radius: 5px;
     position: absolute;
     box-shadow: 10px 10px 10px #0a3c2f;
-    top: 60px;
-    right: 400px;
+    top: 10px;
     z-index: 10;
     display: block;
+    position: absolute;
 }
 #active,#counter{
     display: none;
@@ -38,7 +37,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 15px;
+    margin: 20px 15px 0 15px;
     background: #0d614b;
     padding: 40px 60px;
     border-radius: 4px;
