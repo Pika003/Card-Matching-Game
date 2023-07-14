@@ -38,6 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin: 15px;
     background: #0d614b;
     padding: 40px 60px;
     border-radius: 4px;
@@ -127,5 +128,45 @@ p,h2{
     }
     80%{
         transform: translateX(8px);
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .item{
+        width: 80px;
+        height: 80px;
+    }
+    .container{
+        padding: 40px 60px;
+    }
+    .game{
+        width: 350px;
+        height: 383px;
+    }
+}
+@media screen and (max-width: 445px) {
+    .item{
+        width: 68px;
+        height: 68px;
+    }
+    .game{
+        width: 320px;
+        height: 303px;
+    }
+    .container{
+        padding-left: 66px;
+    }
+}
+@media screen and (max-width: 388px) {
+    .item{
+        width: 60px;
+        height: 60px;
+    }
+    .game{
+        width: 280px;
+        height: 280px;
+    }
+    .container{
+        padding-left: 73px;
     }
 }
