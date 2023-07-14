@@ -11,6 +11,26 @@ body{
     min-height: 100vh;
     background: #0a3c2f;
 }
+.starts-container{
+    height: 70px;
+    width: 160px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    
+    background: #209d7b;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 10px 10px 10px #0a3c2f;
+    top: 60px;
+    right: 400px;
+    z-index: 10;
+    display: block;
+}
+#active,#counter{
+    display: none;
+}
 .container{
     position: relative;
     display: flex;
@@ -22,13 +42,18 @@ body{
     padding: 40px 60px;
     border-radius: 4px;
 }
-h2{
+#result{
+    line-break: auto;
+    line-height: 2em;
+    margin-bottom: 15px;
+}
+p,h2{
     font-size: 3em;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
-.reset{
+#reset,#start{
     padding: 15px 20px;
     color: #267c65;
     background: #fff;
@@ -40,7 +65,7 @@ h2{
     font-weight: 600;
     border-radius: 4px;
 }
-.reset:focus{
+#reset:focus{
     color: #fff;
     background: #267c65;
 }
