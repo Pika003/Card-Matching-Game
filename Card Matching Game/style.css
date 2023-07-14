@@ -22,7 +22,7 @@ body{
     border-radius: 5px;
     position: absolute;
     box-shadow: 10px 10px 10px #0a3c2f;
-    top: 10px;
+    top: 1vh;
     z-index: 10;
     display: block;
     position: absolute;
@@ -142,6 +142,9 @@ p,h2{
         width: 350px;
         height: 383px;
     }
+    .starts-container{
+        top: 10vh;
+    }
 }
 @media screen and (max-width: 445px) {
     .item{
@@ -154,6 +157,9 @@ p,h2{
     }
     .container{
         padding-left: 66px;
+    }
+    p,h2{
+        font-size: 1.5em;
     }
 }
 @media screen and (max-width: 388px) {
