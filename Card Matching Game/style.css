@@ -174,4 +174,9 @@ p,h2{
     .container{
         padding-left: 73px;
     }
+    .starts-container{
+        height: 80px;
+        width: 180px;
+        padding: 15px 20px;
+    }
 }
